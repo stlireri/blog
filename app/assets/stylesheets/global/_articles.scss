@@ -1,0 +1,25 @@
+@import "variables";
+
+.btn-success {
+    width: 20%;
+    color: #fff;
+    border-color: $primary_color;
+    background: $primary_color;
+    &:hover {
+        color: $primary_color;
+        background: white;
+        border-color: $primary_color;
+    }
+
+}
+.form-control{
+    &:hover{
+        border-color:$primary_color;
+    }
+}
+.header {
+    text-align: center;
+}
+.row {
+    margin-left: 20%;
+}
