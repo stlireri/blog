@@ -1,14 +1,18 @@
 @import "variables";
 
 .btn-success {
-    width: 20%;
-    color: #fff;
+    width: 40%;
+    color: blueviolet;
     border-color: $primary_color;
     background: $primary_color;
     &:hover {
         color: $primary_color;
         background: white;
         border-color: $primary_color;
+    }
+
+    .btn-default navbar-btn {
+        border-color: $primary-color;
     }
 
 }
